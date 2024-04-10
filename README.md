@@ -1,30 +1,21 @@
-# React + TypeScript + Vite
+## Projeto Busca de Usuários do GitHub 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+No desenvolvimento deste projeto, foram utilizadas diversas tecnologias e ferramentas para alcançar os objetivos propostos. Entre elas, destacam-se o uso do framework **#ReactJS** e da linguagem de programação **#TypeScript**, que proporcionaram uma base sólida e eficiente para a construção da aplicação.
 
-Currently, two official plugins are available:
+Além disso, integrei uma API externa para acessar os dados necessários. Para agilizar o desenvolvimento, optei por utilizar o **Vite**, uma ferramenta de construção rápida e eficiente para projetos web em JavaScript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Dentro do ambiente React, fiz uso das propriedades (props), um mecanismo fundamental para passar dados de um componente pai para um componente filho, facilitando a comunicação entre eles. Também adotei o **React Router DOM** para gerenciar a navegação entre as diferentes páginas da aplicação.
 
-## Expanding the ESLint configuration
+### Funcionalidades 🛠️
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Busca de perfis de usuários do GitHub
+- Exibição dos dados do usuário
 
-- Configure the top-level `parserOptions` property like this:
+### Benefícios do TypeScript ✨
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Tipagem estática para maior segurança e confiabilidade do código
+- Facilidade na manutenção e desenvolvimento escalável da aplicação
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+---
+
+Este é um projeto simples e eficiente para demonstrar a integração de tecnologias modernas e boas práticas de desenvolvimento web. Sinta-se à vontade para contribuir ou fornecer feedback!
